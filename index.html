@@ -46,7 +46,7 @@
       <!-- Mobile Nav Bar -->
       <nav class="icon-bar five-up">
           <button class="exit"><i class="fi-x"></i></button>
-          <input type="search" placeholder="Search">
+          <input type="search" placeholder="Search The Globe" class="globe">
         <a class="item left-off-canvas-toggle">
           <img src="images/menu.png">
           <label class="menu">Menu</label>
@@ -91,13 +91,18 @@
           <h2>BREAKING NEWS</h2>
           <div class="small-10 columns">
             <p>
-              Massive heatwave in the area, tropical tempratures. Scientists say its do to global warming,republican politicians are saying it is due to Obamacare 
+              Massive heatwave in the area, tropical tempratures. Scientists say its do to global warming, republican politicians are saying it is due to Obamacare. 
             </p>
           </div>
           <div class="small-2 columns">
             <button class="close">
               <i class="fi-x-circle"></i>
+              Close
             </button>
+            <button class="close1">
+            <i class="fi-arrow-right"></i>
+            More
+          </button>
           </div>
         </div>
       </div>
@@ -139,12 +144,12 @@
       $(document).ready(function(){
         $("nav a:last-child").click(function(){
           $("nav a").hide();
-           $("input").show();
+           $(".globe").show();
            $(".exit").show()
         })
           $(".exit").click(function(){
           $("nav a").show();
-           $("input").hide();
+           $(".globe").hide();
            $(".exit").hide();
         })
         
