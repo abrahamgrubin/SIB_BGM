@@ -1,14 +1,18 @@
 // header
 @media only screen and (max-width: 40em) { 
   .off-canvas-list li {
-    //border:1px solid #fff;
-    //border-right:0px;
-    //border-left:0px;
+    border-bottom:1px solid rgba(255, 255, 255, .5);
     color:#fff;
     position:relative;
-    left:10px;
+    padding:5px 0px 5px 10px;
     font-size: 1.5em;
+
   }
+
+   #subscribe{
+      background-color:#04af09;
+    }
+
    .title {
       font-weight: bold;
       font-size: 2em;
@@ -106,7 +110,7 @@
       position:relative;
       border-radius:10px;
       top:10px;
-      width:82%;
+      width:79%;
       float:right; 
       display:none;
       margin-right: 10px;
@@ -136,10 +140,11 @@
     button {
       display:inline-block;
       position:absolute;
+      margin-bottom:-17em;
       background:none;
-      padding:4px 10px 4px 10px;
-      border:solid 1px #fff;
-      border-radius:50%;
+      padding:100px 10px 4px 10px;
+      //border:solid 1px #fff;
+      //border-radius:50%;
     }
   }
 
