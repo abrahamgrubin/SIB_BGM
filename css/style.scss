@@ -169,4 +169,11 @@ img .splash {
     opacity:.2;
     z-index:100;
   }
+  body{
+    background-image:url('../images/checker.gif');
+    z-index:0;
+    .con {
+      opacity:0;
+    }
+  }
 }
