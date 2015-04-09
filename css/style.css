@@ -5,6 +5,13 @@
     position: relative;
     padding: 5px 0px 5px 10px;
     font-size: 1.5em; }
+    .off-canvas-list li input {
+      width: 80%;
+      border-radius: 10px;
+      display: inline-block; }
+    .off-canvas-list li i {
+      padding-top: 4px;
+      padding-right: 13px; }
 
   #subscribe {
     background-color: #04af09; }
